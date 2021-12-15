@@ -17,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 5px 10%;
 }
 .logo {
   cursor: pointer;
@@ -59,3 +59,42 @@ button {
 button:hover {
   background-color: rgba(55, 200, 160, 1);
 }
+
+.background-image {
+  background-image: url('./images/grand-min.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  opacity: 70%;
+}
+
+
+/* -- hambuger button 
+.burger-btn {
+  position: absolute;
+  top: .75ram;
+  right: 1ram;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.burger-btn span {
+  height: 3px;
+  width:100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+<a href="#" class="burger-btn">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</a>
+
+<img class="background-image" src="./images/grand-min.jpg" alt="background-image" >
