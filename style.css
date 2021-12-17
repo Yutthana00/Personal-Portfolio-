@@ -34,7 +34,7 @@ header {
   padding: 0px 20px;
 }
 
-@media (max-width: 692px) {
+@media (max-width: 810px) {
   .nav__links li {
     display: none;
   }
@@ -45,12 +45,12 @@ header {
   color: black;
 }
 
-@media (max-width: 692px) {
+@media (max-width: 810px) {
   button {
     display: none;
   }
-  
 }
+
 .nav__links li a:hover {
   color: rgba(60, 230, 175);
 
