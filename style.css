@@ -12,7 +12,8 @@
   justify-content: center;
   height: 50px;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 .navbar::before{
@@ -148,6 +149,7 @@
  .name h2 {
    font-size: 2rem;
    font-family: "Montserrat", sans-serif;
+   
  }
  .name p {
    font-size: 1.2rem;
@@ -155,7 +157,54 @@
 
  /*Contact section*/
    
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000dc;
+}
+#contact h1 {
+  margin: 50px; 
+}
 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 15px 20px;
+  margin: 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+#message {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#submit {
+  padding: 15px 20px;
+  margin: 30px;
+  width: 15%;
+  border-radius: 15px;
+  background-color: rgba(60, 230, 175);
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgba(51, 232, 174, 0.81);
+}
 
 
 
