@@ -80,7 +80,30 @@
 #portfolio {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: #212020a3;
+}
+
+#portfolio h1{
+  margin: 60px;
+}
+
+.surfReport {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.surfReport img {
+  width: 1400px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+.surfReport img:hover {
+ background-color: rgba(60, 230, 175);
+ opacity: .8;
+ cursor: pointer;
 }
 
 .gallery {
@@ -95,7 +118,43 @@
    margin: 10px;
 }
 
+.gallery img:hover {
+  background-color: rgba(60, 230, 175);
+  opacity: .8;
+  cursor: pointer;
+}
 
+
+/*About section*/
+
+#about {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+ #about h1{
+  margin: 55px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+ .about {
+   display: flex;
+}
+ 
+ name {
+   padding: 10px;
+ }
+ .name h2 {
+   font-size: 2rem;
+   font-family: "Montserrat", sans-serif;
+ }
+ .name p {
+   font-size: 1.2rem;
+ }
+
+ /*Contact section*/
+   
 
 
 
