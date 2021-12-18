@@ -275,6 +275,37 @@
   text-align: center;
 }
 
+.surf-report {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin: 55px;
+  color: black;
+  text-align: center;
+}
+
+.weather {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin: 55px;
+  color: black;
+  text-align: center;
+}
+
+.website-app {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin: 55px;
+  color: black;
+  text-align: center;
+}
+
+.calculator {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin: 55px;
+  color: black;
+  text-align: center;
+}
 
 
 
