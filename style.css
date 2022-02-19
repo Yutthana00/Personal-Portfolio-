@@ -89,43 +89,29 @@
   margin: 60px;
 }
 
-.surfReport {
+.marketTracker {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.surfReport img {
+.marketTracker img {
   width: 1400px;
   height: auto;
   padding: 10px;
   margin: 10px;
 }
 
-.surfReport img:hover {
+.marketTracker img:hover {
  background-color: rgba(60, 230, 175);
  opacity: .8;
  cursor: pointer;
 }
 
-.gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+/* icon section  */
+#icon {
+  -----
 }
-.gallery img {
-   width: 360px;
-   height: 550px;
-   padding: 10px;
-   margin: 10px;
-}
-
-.gallery img:hover {
-  background-color: rgba(60, 230, 175);
-  opacity: .8;
-  cursor: pointer;
-}
-
 
 /*About section*/
 
@@ -161,26 +147,10 @@
 #contact {
   display: flex;
   flex-direction: column;
-  background-color: #000000dc;
+  background-color: #4b4c4d;
 }
 #contact h1 {
   margin: 50px; 
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.input  {
-  padding: 15px 20px;
-  margin: 15px;
-  width: 40%;
-  border: none;
-  outline: none;
-  border-radius: 15px;
 }
 
 #message {
@@ -266,47 +236,6 @@
   color:#aaa;
   margin-bottom:0;
 }
-
-.thankyou {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  margin: 55px;
-  color: black;
-  text-align: center;
-}
-
-.surf-report {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  margin: 55px;
-  color: black;
-  text-align: center;
-}
-
-.weather {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  margin: 55px;
-  color: black;
-  text-align: center;
-}
-
-.website-app {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  margin: 55px;
-  color: black;
-  text-align: center;
-}
-
-.calculator {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  margin: 55px;
-  color: black;
-  text-align: center;
-}
-
 
 
 
