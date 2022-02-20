@@ -109,8 +109,29 @@
 }
 
 /* icon section  */
+
+.fa {
+  color: black;
+  padding: 30px;
+text-decoration: none;
+}
+
+#IN {
+  color: rgb(40,103,178);
+  padding: 30px;
+  text-decoration: none;
+}
+
+#CV {
+  color: #ffffff;
+  padding: 30px;
+  position: relative;
+  text-decoration: none;
+}
+
 #icon {
-  -----
+margin-bottom: 80px;
+font-size: 110px;
 }
 
 /*About section*/
@@ -119,15 +140,20 @@
   display: flex;
   flex-direction: column;
   height: 600px;
+  background-color: rgba(0, 0, 0, .5);
+
 }
  #about h1{
   margin: 55px;
   color: black;
   font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+
 }
 
  .about {
    display: flex;
+   color: #ffffff;
 }
  
  name {
@@ -142,12 +168,18 @@
    font-size: 1.2rem;
  }
 
+#resumeContainer {
+  background-color: #4b4c4d;
+  
+}
+
  /*Contact section*/
-   
+  
 #contact {
   display: flex;
   flex-direction: column;
-  background-color: #4b4c4d;
+  background-color: rgba(0, 0, 0, .5);
+
 }
 #contact h1 {
   margin: 50px; 
@@ -157,23 +189,6 @@
   margin: 15px;
   padding: 10px;
   border-radius: 15px;
-}
-
-#submit {
-  padding: 15px 20px;
-  margin: 30px;
-  border-radius: 15px;
-  background-color: rgba(60, 230, 175);
-  color: whitesmoke;
-  border: none;
-  outline: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-#submit:hover {
-  cursor: pointer;
-  background-color: rgba(51, 232, 174, 0.81);
 }
 
 .footer-basic {
