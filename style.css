@@ -82,6 +82,7 @@
   font-family: "Montserrat", sans-serif;
   text-align: center;
   transform: scale(1,1.2);
+  padding: 20px;
 }
 
 /* Portfoilio Section */
@@ -141,11 +142,11 @@
   padding: 30px;
   text-decoration: none;
   display: flex;
-
-  display: block;
   height: 100%;
-  width: 100%;
+  width: auto%;
   flex-direction: row-reverse;
+  justify-content: center;
+
 }
 
 #IN {
@@ -162,7 +163,6 @@
 }
 
 #icon {
-/* margin-bottom: 80px; */
 font-size: 110px;
 margin: 0px;
 padding: 0px;
@@ -174,7 +174,8 @@ padding: 0px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /* height: 600px; */
+  text-align: center;
+  
   background-color: rgba(0, 0, 0, .5);
 
 }
