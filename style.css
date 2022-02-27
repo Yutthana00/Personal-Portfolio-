@@ -76,6 +76,13 @@
   text-align: center;
   transform: scale(1,1.2);
 }
+.subHeading {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  transform: scale(1,1.2);
+}
 
 /* Portfoilio Section */
 
@@ -95,14 +102,33 @@
   flex-wrap: wrap;
 }
 
+
 .marketTracker img {
-  width: 1400px;
+  width: 100%;
   height: auto;
-  padding: 10px;
-  margin: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .marketTracker img:hover {
+ background-color: rgba(60, 230, 175);
+ opacity: .8;
+ cursor: pointer;
+}
+.weatherWatch {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.weatherWatch img {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.weatherWatch img:hover {
  background-color: rgba(60, 230, 175);
  opacity: .8;
  cursor: pointer;
@@ -138,13 +164,14 @@ font-size: 110px;
 
 #about {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   height: 600px;
   background-color: rgba(0, 0, 0, .5);
 
 }
  #about h1{
-  margin: 55px;
+  margin: 0px;
   color: black;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -195,6 +222,7 @@ font-size: 110px;
   padding:40px 0;
   background-color:#ffffff;
   color:#4b4c4d;
+
 }
 
 .footer-basic ul {
