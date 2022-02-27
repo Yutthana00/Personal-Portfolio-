@@ -139,7 +139,13 @@
 .fa {
   color: black;
   padding: 30px;
-text-decoration: none;
+  text-decoration: none;
+  display: flex;
+
+  display: block;
+  height: 100%;
+  width: 100%;
+  flex-direction: row-reverse;
 }
 
 #IN {
@@ -156,8 +162,10 @@ text-decoration: none;
 }
 
 #icon {
-margin-bottom: 80px;
+/* margin-bottom: 80px; */
 font-size: 110px;
+margin: 0px;
+padding: 0px;
 }
 
 /*About section*/
@@ -166,12 +174,12 @@ font-size: 110px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 600px;
+  /* height: 600px; */
   background-color: rgba(0, 0, 0, .5);
 
 }
  #about h1{
-  margin: 0px;
+  margin: 60px;
   color: black;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
