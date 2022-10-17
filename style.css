@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+    padding: 0px;
 }
 
 /* navbar */
@@ -113,9 +113,9 @@
   padding: 5px;
 
 }
-
 .column img {
   margin-top: 12px;
+
 
 }
 
