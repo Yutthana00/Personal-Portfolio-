@@ -55,7 +55,10 @@
   align-items: center;
   background-color: rgba(0, 0, 0, .5);
   color: whitesmoke;
+}
 
+#aboutMe p {
+  padding: 40px;
 }
 
 #aboutMe::before {
@@ -70,7 +73,6 @@
   opacity: .8;
 }
 #aboutMe p {
-  width: 1400px;
   font-size: 25px;
   text-align: center;
 }
@@ -114,6 +116,7 @@
 
 .column img {
   margin-top: 12px;
+
 }
 
 /* icon section  */
@@ -124,7 +127,6 @@
   text-decoration: none;
   display: flex;
   height: 100%;
-  width: auto;
   flex-direction: row-reverse;
   justify-content: center;
 
@@ -145,7 +147,7 @@
 
 #icon {
 font-size: 110px;
-margin: 0px;
+
 padding: 0px;
 }
  
